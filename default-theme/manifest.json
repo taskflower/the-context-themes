@@ -1,0 +1,8 @@
+{
+    "id": "default-theme",
+    "name": "Default Theme",
+    "description": "Standardowy szablon z nowoczesnym interfejsem",
+    "version": "1.0.0",
+    "author": "Twoja Firma",
+    "screenshot": "screenshot.png"
+  }
