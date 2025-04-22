@@ -1,4 +1,3 @@
-// src/types/your-app-types.d.ts
 import React from 'react';
 
 declare module 'your-app-types' {

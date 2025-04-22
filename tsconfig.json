@@ -3,15 +3,19 @@
     "target": "ES2019",
     "module": "ESNext",
     "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
     "declaration": true,
     "declarationDir": "dist",
     "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+
+    "baseUrl": ".",
+    "typeRoots": ["src", "node_modules/@types"]
   },
-   "include": [
-       "src/**/*",
-       "src/types/**/*"
-     ]
-    }
+  "include": [
+    "src/**/*",
+    "src/your-app-types.d.ts"
+  ]
+}

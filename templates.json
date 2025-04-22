@@ -1,21 +1,8 @@
 [
     {
-      "id": "remote-layout",
-      "name": "Remote Minimal Layout",
-      "url": "https://raw.githubusercontent.com/taskflower/the-context-themes/main/src/RemoteLayout.tsx",
-      "type": "layout"
-    },
-    {
-      "id": "step-one",
-      "name": "Step One",
-      "url": "https://raw.githubusercontent.com/taskflower/the-context-themes/main/src/StepOne.tsx",
-      "type": "flowStep"
-    },
-    {
-      "id": "step-two",
-      "name": "Step Two",
-      "url": "https://raw.githubusercontent.com/taskflower/the-context-themes/main/src/StepTwo.tsx",
-      "type": "flowStep"
+      "id": "remote-theme",
+      "name": "Remote Theme",
+      "url": "https://raw.githack.com/taskflower/the-context-themes/main/dist/remote-templates.js"
     }
   ]
   
