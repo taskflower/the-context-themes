@@ -1,8 +1,8 @@
 [
     {
-      "id": "remote-theme",
-      "name": "Remote Theme",
-      "url": "https://raw.githack.com/taskflower/the-context-themes/main/dist/remote-templates.js"
+      "id": "remote-templates",
+      "name": "Remote Templates Bundle",
+      "url": "https://cdn.jsdelivr.net/gh/taskflower/the-context-themes@main/dist/remote-templates.js"
     }
   ]
   
