@@ -1,21 +1,5 @@
-// src/global.d.ts
-declare module 'your-app-types' {
-    import React from 'react';
-  
-    export interface LayoutProps {
-      children: React.ReactNode;
-      title?: string;
-      onBackClick?: () => void;
-    }
-  
-    export interface FlowStepProps {
-      node: {
-        label: string;
-        assistantMessage: string;
-      };
-      onSubmit: (updates?: any) => void;
-      onPrevious?: () => void;
-      isLastNode?: boolean;
+declare global {
+    interface Window {
+      RemoteTemplates: any;
     }
   }
-  

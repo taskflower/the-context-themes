@@ -2,7 +2,7 @@
     {
       "id": "remote-templates",
       "name": "Remote Templates Bundle",
-      "url": "https://cdn.jsdelivr.net/gh/taskflower/the-context-themes@main/dist/remote-templates.js"
+      "url": "https://cdn.jsdelivr.net/gh/taskflower/the-context-themes@main/dist/remote-templates.js",
+      "type": "layout"
     }
   ]
-  

@@ -6,12 +6,12 @@ export default {
   input: 'src/index.tsx',
   output: {
     file: 'dist/remote-templates.js',
-    format: 'esm',
-    sourcemap: true,
-    // Dodaj mapowanie ścieżek dla zewnętrznych zależności
-    paths: {
-      'react': 'https://esm.sh/react@18'
-    }
+    format: 'umd',  // Zmieniono z 'esm' na 'umd'
+    name: 'RemoteTemplates',  // Nazwa globalnego obiektu
+    globals: {
+      'react': 'React'  // Mówi że React to globalna zmienna 'React'
+    },
+    sourcemap: true
   },
   external: ['react'],
   plugins: [
