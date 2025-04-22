@@ -1,4 +1,4 @@
-import require$$0, { createContext, useState, useContext } from 'react';
+import require$$0, { createContext, useState, useContext } from 'https://esm.sh/react@18';
 
 var jsxRuntime = {exports: {}};
 

@@ -7,13 +7,16 @@ export default {
   output: {
     file: 'dist/remote-templates.js',
     format: 'esm',
-    sourcemap: true
+    sourcemap: true,
+    // Dodaj mapowanie ścieżek dla zewnętrznych zależności
+    paths: {
+      'react': 'https://esm.sh/react@18'
+    }
   },
   external: ['react'],
   plugins: [
     resolve({ extensions: ['.js', '.jsx', '.ts', '.tsx'] }),
     commonjs(),
-    // Wszytko co potrzebne bierze z tsconfig.json
     typescript({ tsconfig: './tsconfig.json' })
   ]
 };
